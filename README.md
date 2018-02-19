@@ -4,6 +4,8 @@
 
 Speech signal processing, supra-segmental phonology, prosody, and links to processing information theory, pragmatics and semantics.
 
+See for more details the [Wiki](https://github.com/dcavar/speechsignal/wiki).
+
 
 ## Purpose
 
