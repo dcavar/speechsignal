@@ -1,5 +1,13 @@
 # Example Sentences
 
+Recording standards for our audio files:
+
+- 44 kHz 16 bit
+- WAV PCM format
+
+Use a mobile phone with some app for recording. If you have a recommendation, let everybody know via Slack.
+
+
 We will focus here on contrastive stress on:
 
 - subject
