@@ -1,0 +1,46 @@
+# Example Sentences
+
+We will focus here on contrastive stress on:
+
+- subject
+- verb
+- object
+- locative preposition phrase (or other such predicative modifiers)
+
+Each recording consists of a plain declarative intonation using the unmarked or default word order, an answer to a question like "what happened":
+
+- A man bought a car in Paris.
+
+Then we generate all contrastive alternations:
+
+- I say that "a woman" (bought a car in Paris), and you answer: No, "a man" (bought a car in Paris)
+- I say "stole" (a man __ a car in Paris), and you answer: No, a man BOUGHT a car in Paris.
+
+So all variants will be:
+
+- a man bought a car in Paris
+- A MAN bought a car in Paris
+- a man BOUGHT a car in Paris
+- a man bought A CAR in Paris
+- a man bought a car IN PARIS
+
+In addition we generate a recording with verum focus, that is, we emphasize the truth value of the proposition:
+
+- a man DID buy a car in Paris
+
+
+Here are some examples:
+
+- all my friends love to party in Florida
+- big red foxes have been jumping the fence
+
+Make sentences longer:
+
+- all my students claim that my shirts are uggly
+- a few dogs were chasing the kids in the woods
+
+
+
+
+
+

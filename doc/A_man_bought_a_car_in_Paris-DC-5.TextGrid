@@ -1,0 +1,36 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.805170068027211 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "transcription" 
+        xmin = 0 
+        xmax = 3.805170068027211 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.805170068027211 
+            text = "a man bought a car in Paris" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "stress" 
+        xmin = 0 
+        xmax = 3.805170068027211 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.8956770235265408 
+            text = "o" 
+        intervals [2]:
+            xmin = 1.8956770235265408 
+            xmax = 2.5081872867129604 
+            text = "i" 
+        intervals [3]:
+            xmin = 2.5081872867129604 
+            xmax = 3.805170068027211 
+            text = "o" 
