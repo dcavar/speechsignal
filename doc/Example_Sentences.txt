@@ -8,6 +8,22 @@ Recording standards for our audio files:
 Use a mobile phone with some app for recording. If you have a recommendation, let everybody know via Slack.
 
 
+## File naming convention
+
+The file name is constructed:
+
+USERID_DATE_UTTERANCEID_FROM_TO.wav
+
+- USERID (2xCHAR) is a two character ID.
+- DATE is in the format YYYYMMDD
+- FROM (int) is the index in Python notation
+- TO (int) is the index in Python notation (including the token before the int)
+
+
+
+
+## Corpus Notes
+
 We will focus here on contrastive stress on:
 
 - subject
