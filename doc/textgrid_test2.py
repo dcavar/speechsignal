@@ -12,3 +12,5 @@ for start, stop, label in stressTier.entryList:
     print(start)
     print(stop)
     print(label)
+
+
