@@ -60,11 +60,5 @@ Here are some examples:
 
 Make sentences longer:
 
-- all my students claim that my shirts are uggly
+- all my students claim that my shirts are ugly
 - a few dogs were chasing the kids in the woods
-
-
-
-
-
-
