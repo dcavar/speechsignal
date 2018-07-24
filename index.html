@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Speech and Computational Pragmatics and Semantics for AI</title>
+    <script src="https://use.fontawesome.com/9b157dbcd8.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="bootstrap-theme.min.css" media="screen">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script><!--bootstrap 3.7.7-->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Speech and Computational Pragmatics and Semantics for AI</h1>
+            <p>If you can donate audio samples to our project, we need:</p>
+            <ul>
+                <li>WAV PCM with at least 44 kHz/16 Bit recorded using your mobile phone, laptop, tablet, or recording device</li>
+                <li>File name is some random user ID (two characters) followed by _ </li>
+            </ul>
+            <h2>File naming convention</h2>
+
+            <p>The file name is constructed:</p>
+
+            <pre>USERID_DATE_UTTERANCEID_FROM_TO.wav</pre>
+            <ul>
+                <li>USERID (2xCHAR) is a two character ID.</li>
+                <li>DATE is in the format YYYYMMDD</li>
+                <li>FROM (int) is the index in Python notation</li>
+                <li>TO (int) is the index in Python notation (including the token before the int)</li>
+            </ul>
+
+            <p>We will focus here on contrastive stress on:</p>
+            <ul>
+                <li>subject</li>
+                <li>verb</li>
+                <li>object</li>
+                <li>locative preposition phrase (or other such predicative modifiers)</li>
+            </ul>
+
+            <p>Each recording consists of a plain declarative intonation using the unmarked or default word order, an answer to a question like "what happened":</p>
+            <ul>
+                <li>A man bought a car in Paris.</li>
+            </ul>
+
+            <p>Then we generate all contrastive alternations:</p>
+            <ul>
+                <li>I say that "a woman" (bought a car in Paris), and you answer: No, "a man" (bought a car in Paris)</li>
+                <li>I say "stole" (a man __ a car in Paris), and you answer: No, a man BOUGHT a car in Paris.</li>
+            </ul>
+
+            <p>So all variants will be:</p>
+            <ul>
+                <li>a man bought a car in Paris</li>
+                <li>A MAN bought a car in Paris</li>
+                <li>a man BOUGHT a car in Paris</li>
+                <li>a man bought A CAR in Paris</li>
+                <li>a man bought a car IN PARIS</li>
+            </ul>
+
+            <footer>
+                <p>Contact: Damir Cavar, Abhishek Babuji, Arnav, Shreejith Panicker</p>
+            </footer>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
